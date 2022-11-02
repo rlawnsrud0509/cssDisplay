@@ -1,8 +1,15 @@
+html {
+  background-color: black;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
   display: flex;
   justify-content: center;
   font-weight: 600;
-  background-color: black;
   color: white;
   justify-content: center;
 }
@@ -41,18 +48,100 @@ ol {
   margin: 4rem 15rem;
 }
 
+.hoverDiv {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  border: 3px solid white;
+  margin: 4rem 15rem;
+}
+
 .inline {
-  display: inline;
-  background-color: black;
+  display: inline-block;
 }
 
 .block {
-  display: flex;
-  flex-direction: row;
-  background-color: black;
+  display: block;
 }
 
 .inline-block {
   display: inline-block;
-  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexDirectionRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexDirectionColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.back1:hover {
+  background-color: white;
+}
+
+.back2:hover {
+  background-color: blue;
+}
+
+.back3:hover {
+  background-color: red;
+}
+
+.back4:hover {
+  background-color: green;
+}
+
+.size1:hover {
+  transform: scale(1.25);
+}
+
+.size2:hover {
+  transform: scale(1.5);
+}
+
+.size3:hover {
+  transform: scale(1.75);
+}
+
+.size4:hover {
+  transform: scale(2);
+}
+
+.aback1:active {
+  background-color: white;
+}
+
+.aback2:active {
+  background-color: blue;
+}
+
+.aback3:active {
+  background-color: red;
+}
+
+.aback4:active {
+  background-color: green;
+}
+
+.asize1:active {
+  transform: scale(1.25);
+}
+
+.asize2:active {
+  transform: scale(1.5);
+}
+
+.asize3:active {
+  transform: scale(1.75);
+}
+
+.asize4:active {
+  transform: scale(2);
 }
